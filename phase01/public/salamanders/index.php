@@ -1,5 +1,5 @@
 <!-- require initialize.php -->
-<?php require_once('..\..\private/initialize.php'); ?>
+<?php require_once('../../private/initialize.php'); ?>
 <!-- 
   Write a salamanders array with the following
 id=1, salamanderName = Red-Legged Salamander
@@ -21,7 +21,7 @@ Include a shared path to the salamander header -->
 <?php $pageTitle = 'Salamanders'; ?>
 <?php include('/laragon/www/sas/phase01/private/shared/salamander-header.php'); ?>
 
-<title>SAS - Salamanders</title>
+<title><?php echo($pageTitle); ?></title>
 
 
 
@@ -50,4 +50,4 @@ Include a shared path to the salamander header -->
   <?php } ?>
 </table>
 
-<?php include('/laragon/www/sas/phase01/private/shared/salamander-footer.php'); ?>
+<?php include(SHARED_PATH . '/salamander-footer.php'); ?>
