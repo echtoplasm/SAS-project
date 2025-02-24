@@ -19,7 +19,7 @@ $salamanders = [
 <!-- Add the pageTitle for salamanders
 Include a shared path to the salamander header -->
 <?php $pageTitle = 'Salamanders'; ?>
-<?php include('/laragon/www/sas/phase01/private/shared/salamander-header.php'); ?>
+<?php include(SHARED_PATH . '/salamander-header.php'); ?>
 
 <title><?php echo($pageTitle); ?></title>
 
