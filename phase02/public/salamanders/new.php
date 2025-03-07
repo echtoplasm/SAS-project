@@ -23,12 +23,13 @@ switch($test) {
 }
 ?>
 
-<?php $page_title = 'Create Salamander'; ?>
-
-<?php include(SHARED_PATH . '/salamander-header.php'); ?>
+<?php 
+$page_title = 'Create Salamander'; 
+include(SHARED_PATH . '/salamander-header.php'); 
+?>
 
 <h1>Create Salamander</h1>
-<form action="/sas/phase02/public/salamanders/create.php" method="post">
+<form action="<?php echo url_for('/salamanders/create.php'); ?>" method="post">
     <label for="salamanderName">Name</label><br>
     <input type="text" name="salamanderName"/><br>
     <input type="submit" value="Create Salamander"/>
