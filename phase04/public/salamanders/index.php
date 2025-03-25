@@ -9,7 +9,7 @@ include(SHARED_PATH . '/salamander-header.php');
 ?>
     <h1>Salamanders</h1>
     
-    <a href="<?= url_for('salamanders/create.php'); ?>">Create Salamander</a>
+    <a href="<?= url_for('salamanders/new.php'); ?>">Create Salamander</a>
     
     <table border="1">
       <tr>
