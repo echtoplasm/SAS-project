@@ -4,3 +4,4 @@ phase05/private/db_credentials.php
 .env
 composer.lock
 composer.json
+vendor

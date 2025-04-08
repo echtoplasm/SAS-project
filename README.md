@@ -47,3 +47,10 @@ accidental exposure of sensitive credentials.
 ## About this project
 
 This project and all corresponding phases for said project, were made as a project for school. The class encompasses Php web development. 
+
+
+## Dependencies 
+
+vlucas/phpdotenv - for environment variables 
+
+`composer require vlucas/phpdotenv`
